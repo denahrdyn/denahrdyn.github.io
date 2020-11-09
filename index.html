@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Top Scores</title>
+    <meta name="description" content="TopScores">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#6a1b9a">
+    <link rel="apple-touch-icon" href="/icon-192.png">
+    <link rel="shortcut icon" href="/favicon-32x32.png">
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <nav class="purple darken-3" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="/index.html" class="brand-logo left" id="logo-container"><img src="/assets/logo/Logo.png"
+                    alt="Logo TopScores"></a>
+            <ul class="right">
+                <li>
+                    <a href="#">
+                        <i class="material-icons">search</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+
+    <div class="container" id="body-content"></div>
+
+    <footer class="bottom-navigation">
+        <div class="container">
+            <ul class="tombol-nav">
+                <li>
+                    <a class="waves-effect" href="#home">
+                        <i class="material-icons" href="#home">home</i>
+                        <span href="#home">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="#favorite">
+                        <i class="material-icons" href="#favorite">favorite</i>
+                        <span href="#favorite">Favorite</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/sw-register.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+</body>
+
+</html>
